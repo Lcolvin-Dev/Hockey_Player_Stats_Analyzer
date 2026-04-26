@@ -1,5 +1,5 @@
 # Hockey_Player_Stats_Analyzer
-This project was developed to demonstrate data processing, analytical thinking, and programming logic using real-world sports data.
+This project was developed to demonstrate data processing, analytical thinking, and programming logic using real world sports data.
 
 This C# console application allows a user to view hockey players, add new players, update player statistics, and view calculated stat reports.
 
