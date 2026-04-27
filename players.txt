@@ -1,0 +1,5 @@
+Connor|McDavid|EDM|Center|82|64|89|352
+Auston|Matthews|TOR|Center|74|60|47|326
+Nathan|MacKinnon|COL|Center|82|51|89|405
+David|Pastrnak|BOS|Right Wing|82|47|63|382
+Cale|Makar|COL|Defense|77|21|69|231

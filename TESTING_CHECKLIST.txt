@@ -1,0 +1,68 @@
+Hockey Player Stats Analyzer - Testing Checklist
+
+1. Application Startup
+- Open the solution in Visual Studio.
+- Run the program.
+- Confirm the main menu appears.
+
+2. View All Players
+- Select option 1.
+- Confirm sample players display in columns.
+- Confirm goals, assists, and points are displayed.
+
+3. Add New Player
+Successful test:
+- First name: Johnny
+- Last name: Hockey
+- Team: CBJ
+- Position: Center
+- Games played: 10
+- Goals: 5
+- Assists: 7
+- Shots on goal: 40
+Expected result:
+- Player is added successfully.
+- Player appears in View All Players.
+
+Invalid input tests:
+- Blank first name should show an invalid input message.
+- Negative games played should show an invalid input message.
+- Non-number goals should show an invalid input message.
+
+4. Update Player Stats
+Successful test:
+- Select an existing player.
+- Enter games played: 20
+- Goals: 8
+- Assists: 12
+- Shots on goal: 60
+Expected result:
+- Player stats update successfully.
+
+Invalid input tests:
+- Player number greater than the list count should show invalid player number.
+- Negative stat values should not be accepted.
+- Text entered for numeric values should not be accepted.
+
+5. Player Report Calculation Tests
+Test values:
+- Games played: 10
+- Goals: 5
+- Assists: 7
+- Shots on goal: 40
+Expected calculations:
+- Total points = 12
+- Points per game = 1.20
+- Goals per game = 0.50
+- Shooting percentage = 12.50%
+
+6. Save and Exit
+- Select option 5.
+- Restart the program.
+- Confirm added or updated players are still present.
+
+Desired behavior:
+- Program should not crash when bad input is entered.
+- Program should continue asking until valid input is provided.
+- Calculations should display to two decimal places where appropriate.
+- Data should be saved in players.txt so the project is recoverable between runs.
